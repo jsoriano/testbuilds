@@ -4,8 +4,13 @@ conditional builds in Go.
 
 ```
 $ make
-$ listplugins/listplugins
 ...
+$ listplugins/listplugins
+Plugins: 0
+
+$ make TAGS='memory'
+...
+$ listplugins/listplugins
 Plugins: 1
 memory
  - example: foo

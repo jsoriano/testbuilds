@@ -1,2 +1,4 @@
+TAGS = ''
+
 all:
-	go build -tags memory
+	go build -tags '$(TAGS)'
